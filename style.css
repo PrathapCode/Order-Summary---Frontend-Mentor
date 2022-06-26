@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body {
+     font-family: 'Red Hat Display', 
+         sans-serif;
+     background-image:url(images/pattern-background-desktop.svg);
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-color:hsl(225, 100%, 94%);
+     font-size:16px;
+ }
+ .container {
+     position:absolute;
+     left:50%;
+     top:50%;
+     transform:translate(-50%,-50%);
+     max-width:450px;
+     background-color:white;
+     border-radius:20px;
+     overflow:hidden;
+ }
+.text {
+     padding:7%; 
+     text-align: center;    
+ }
+ .title {
+      color:hsl(223, 47%, 23%);
+      text-align: center;
+      font-size:32px;
+      margin-bottom:20px;
+ }
+ .subtitle {
+      color:rgb(120, 120, 120);
+      margin-bottom:25px;
+ }
+   .smallbox {
+      background-color:hsl(225, 100%, 98%);
+      border-radius:10px;
+      display:flex;
+      padding:25px;
+      justify-content:space-between;
+      text-align:left;
+ }
+ .smallbox-left {
+      display:flex;
+ }
+ .smallbox-left div {
+      
+      margin-left:20px;
+      
+}
+.smallbox-left div h5 {
+      font-size:17px;
+      font-weight:900;
+      color:hsl(223, 47%, 23%);
+      justify-content:space-between;
+}
+.smallbox-left div p {
+      font-size:12px;
+      color:rgb(120, 120, 120);
+      
+ }
+ .smallbox div p {
+      font-size:20px;
+ }
+.smallbox a {
+      font-weight:900;
+      color:hsl(245, 75%, 52%);
+      font-size:17px;
+}
+.smallbox a:hover {
+      text-decoration:none;
+      color:rgb(138,43,226);
+}
+.smallbox a {
+      margin-top:14px;
+ }
+.proceed-btn {
+      display:block;
+      text-decoration:none;
+      color:white;
+      background-color: hsl(245, 75%, 52%);
+      padding:17px 0;
+      border-radius:12px;
+      margin:30px 0;
+      box-shadow: 5px 10px 18px #888888;
+ }
+  
+ .proceed-btn:hover {
+    background-color: rgb(138,43,226);
+}
+ .cancel-btn {
+      color:hsl(224, 23%, 55%);
+      padding-bottom:40px;
+      text-decoration:none;
+      font-weight:900;
+  }    
+  .cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+@media (max-width: 400px) {
+    .container {
+        width: 350px;
+        min-width: 350px;
+    }   
+}
+      
+
+      
